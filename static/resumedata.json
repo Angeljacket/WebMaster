@@ -1,0 +1,97 @@
+{
+  "head":{
+    "name":"邓文杰",
+    "intention":"前端工程师",
+    "tel":"13710363223",
+    "email":"850681594@qq.com",
+    "address":"广东广州",
+    "age":"1999.8.1",
+    "sex":"男",
+    "school":"广州大学",
+    "graduation":"专科",
+    "graduationTime":"2017-9-1 至 2020-7-1",
+    "major":"计算机科学与技术",
+    "honor":"2018年广州市白云区“云创杯”一等奖(负责组件开发)、2018年第二届中华职业教育创新创业大赛银奖(负责APP页面设计与开发)",
+    "interest":"骑行、游泳、编程、音乐、电子游戏",
+    "speciality":"vue、vue-cli、vue-router、axios、JavaScript、Jquery、css、html、stylus、vuex",
+    "specialityPer":"80、80、80、60、75、85、95、95、80、70"
+
+  },
+  "blogLink":{
+    "github":"https://github.com/Angeljacket",
+    "blog":"   850681594"
+  },
+  "workExperience":{
+    "time":"2018.5",
+    "experience":[
+      {
+        "name":"工贸项目--沛星商城",
+        "skill":"vue-cli + vue-router + stylus + vuex + axios",
+        "time":"github仓库地址：https://github.com/Angeljacket/Pei-sing-mall",
+        "describe":[
+          "根据原有的微信小程序进行开发，做成移动端页面",
+          "使用vue-cli构建项目,再用GitHub实现在线多人合作",
+          "使用flexible.js实现移动端屏幕适配问题",
+          "由官方用showCC提供API接口，登录，交易页面流程皆可跑通"
+        ]
+      }
+    ]
+  },
+  "projectExperience":{
+    "time":"",
+    "experience":[
+      {
+        "name":"模拟去哪儿APP(移动端)",
+        "skill":"vue-cli,vue-router,stylus,vuex,swiper,axios,node.js",
+        "time":"2019.4",
+        "describe":[
+          "能自适应各种移动端手机（平板除外）",
+          "依赖API接口数据加载，由于没有官方API文档，手写json文件暂替，登录注册页面皆暂用官方入口",
+          "项目链接: https://github.com/Angeljacket/trave"
+        ]
+      },
+      {
+        "name":"锤子手机官网（移动端）",
+        "skill":"jQuery,js,css,axios",
+        "time":"2018.6",
+        "describe":[
+          "获取了锤子手机官网的官方API文档，然后用axios获取数据(导致官方修改api数据的参数之后)",
+          "能自适应各种移动端手机",
+          "在线预览：http://120.78.175.25/chuizi",
+          "项目链接: https://github.com/Angeljacket/mobileChuizi"
+        ]
+      }
+    ]
+  },
+  "skill":[
+    {
+      "type":"构建工具",
+      "describe":[
+        "熟练使用vue-cli,webpack构建项目"
+      ]
+    },
+    {
+      "type":"框架",
+      "describe":[
+        "熟悉 jQuery,Bootstrap，vue,swiper,vuex",
+        "熟练使用vue完成复杂交互的开发"
+      ]
+    },
+    {
+      "type":"-",
+      "describe":[
+        "熟悉 js,能使用原生js完成一般项目的开发",
+        "熟悉css,scss,以及css3的以下新特性",
+        "熟悉 html5,能写出语义化网页",
+        "熟悉网页优化",
+        "熟练使用vue-cli完成复杂交互的开发",
+        "熟悉stylus的特性",
+        "熟悉vue和vue-cli,能使用其完成一般项目的开发"
+      ]
+    }
+  ],
+  "selfAssessment":[
+    "   鲁迅先生曾说过:世上本没有路,走的人多了便成了路,求职意向：前端工程师~~~"
+  ]
+
+}

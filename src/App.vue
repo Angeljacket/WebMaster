@@ -44,7 +44,7 @@
                         // 停止
                         clearInterval(setIn);
                     }
-                }, 7);
+                }, 2);
             })
         },
         methods: {

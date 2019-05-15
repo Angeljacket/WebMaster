@@ -26,8 +26,8 @@
                 </div>
                 <div class="edu">
                     <h3><span class="item-title">教育背景</span></h3>
-                    <p>{{resumeData.head.school}} ({{resumeData.head.graduation}})</p>
-                    <p>{{resumeData.head.graduationTime}}</p>
+                    <p v-for="item in resumeData.head.school.split('、')">{{item}} ({{resumeData.head.graduation}})</p>
+                    <!--<p>{{resumeData.head.graduationTime}}</p>-->
                     <p>专业:{{resumeData.head.major}}</p>
                     <p class="honor-title">荣获</p>
                     <p v-for="item in resumeData.head.honor.split('、')">{{item}}</p>
@@ -64,6 +64,7 @@
                             <div class="item-title">
                                 <span class="item-name">{{item.name}}</span>
                                 <span class="item-skill">/ {{item.skill}}</span>
+                                <span class="item-github">{{item.github}}</span>
                                 <span class="item-date">{{item.time}}</span>
                             </div>
                             <ul>
@@ -83,6 +84,9 @@
                                 <span class="item-name">{{item.name}}</span>
                                 <span class="item-skill">/ {{item.skill}}</span>
                                 <span class="item-date">{{item.time}}</span>
+                              <a class="item-online" href="http://www.theskytydd.cn/trave"  target="_blank">
+                                <span>{{item.online}}</span></a>
+
                             </div>
                             <ul>
                                 <li v-for="des in item.describe" v-if="des!=''">{{des}}</li>

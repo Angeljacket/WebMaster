@@ -184,6 +184,9 @@ export const str =  {
         font-size: 1.8rem;
         display: inline-block;
     }
+    .title .title-github{
+      float: left;
+     }
     .title .title-date{
         float: right;
     }
@@ -193,6 +196,7 @@ export const str =  {
     }
     .experience .item-title span{
         display: inline-block;
+        padding: .1rem
     }
     .item-title .item-name{
         font-size: 1.6rem;
@@ -200,8 +204,10 @@ export const str =  {
     .item-title .item-skill{
 
     }
+    .item-online{
+    }
     .item-title .item-date{
-        float: right;
+        float: right
     }
     .experience .item ul{
         margin-left: 1.5rem;
@@ -213,9 +219,9 @@ export const str =  {
     .self-evaluation p{
         line-height: 1.4;
     }
-    /* 编辑结束 !!!!
-       界面设计丑了点,吐槽
-       能提供好看的设计图那更是感激不尽!!!!
+    /* over !!
+       尽情吐槽.....
+       能提供好看的设计图那更是感激不尽!!
      ------------------------------------*/
     `
 };
